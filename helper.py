@@ -16,8 +16,7 @@ def fetch_binance_data(interval: str,
  limit: int = 500, 
  export_as_csv: bool = True, 
  export_as_json: bool = False,
- return_as_dataframe: bool = False,
- set_date_as_index: bool = False
+ return_as_dataframe: bool = False
  ):
     if total_data < limit:
         limit = total_data
